@@ -102,6 +102,6 @@ if ckan sounds like more your style definitely check it out [CKAN's releases](ht
 ---
 
 ## license
-MIT License (or choose later)
+MIT License
 
 you are free to use, modify, and distribute this software, provided you include attribution and do not hold the author liable for any damage caused by misuse or incorrect mod installation.
