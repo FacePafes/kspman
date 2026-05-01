@@ -26,16 +26,17 @@ if something updates, you approved it.
 - install a mod (zip file or url)
 - it is extracted and added to a local index
 - the index tracks what files belong to what mod
-- updates are shown when available
-- you choose what to update, one by one or in batches
+- right click to enable/disable mods (renames to .disabled)
 - uninstall uses the tracked file list for clean removal
+- you choose when to replace mods with newer versions
 
 ---
 
 ## updates
-when kspman detects a newer version of a mod:
+as of v0.1 kspman does not automatically check for updates.
 
-you will see it in the update list.
+when you want to update a mod:
+you manually install the new version via zip or url.
 
 you decide:
 - update everything
