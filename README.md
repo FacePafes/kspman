@@ -1,6 +1,8 @@
 # kspman
 KSP mod manager YOU manage
 
+> bugs exist in the current v0.1 release i am aware and fixing them
+
 ---
 
 ## what?
