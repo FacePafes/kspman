@@ -1,7 +1,7 @@
 # kspman
 KSP mod manager YOU manage
 
-> bugs exist in the current v0.1 release i am aware and fixing them
+> v0.2.0 is out. Any bugs found please open an issue
 
 ---
 
@@ -27,15 +27,15 @@ if something updates, you approved it.
 ## how it works
 - install a mod (zip file or url)
 - it is extracted and added to a local index
-- the index tracks what files belong to what mod
+- the index (`kspman_manifest.txt`) tracks what files belong to what mod
 - right click to enable/disable mods (renames to .disabled)
-- uninstall uses the tracked file list for clean removal
+- uninstall uses the tracked file list for removal via bat
 - you choose when to replace mods with newer versions
 
 ---
 
 ## updates
-as of v0.1 kspman does not automatically check for updates.
+as of v0.2 kspman does not automatically check for updates.
 
 when you want to update a mod:
 you manually install the new version via zip or url.
@@ -54,7 +54,7 @@ uninstall is based on tracked install data.
 
 if it was installed by kspman, it can be removed cleanly.
 
-if it wasn’t tracked, it is considered outside the system and kspman won’t touch it.
+if it wasn’t tracked, it is considered outside the system and kspman won’t touch it without telling the program to generate a manifest.
 
 ---
 
