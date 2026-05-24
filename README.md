@@ -105,6 +105,6 @@ if ckan sounds like more your style definitely check it out [CKAN's releases](ht
 ---
 
 ## license
-MIT License
+GNU General Public License v3.0 (GPLv3)
 
-you are free to use, modify, and distribute this software, provided you include attribution and do not hold the author liable for any damage caused by misuse or incorrect mod installation.
+by you using, modifying, or distributing this software, you agree to the terms of the GPLv3. This license ensures that this project remains free and open source for all users. If you redistribute this software or any modified versions, you must include the full source code and maintain the same license terms for your users.
