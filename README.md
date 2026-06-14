@@ -1,8 +1,7 @@
 # kspman
 KSP mod manager YOU manage
 
-> v0.2.0 is out. Any bugs found please open an issue
-
+> v0.3 is live. If you find any problems, open an issue.
 ---
 
 ## what?
