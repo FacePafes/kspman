@@ -27,5 +27,6 @@ if you have are unsure of a idea or a new feature, open an issue or discussion f
 ---
 
 ## building
-use gcc (mingw-w64). the current build command (as of v0.2 release) is:
+use gcc (mingw-w64). the current build command (as of v0.3) is:
+```bash
 gcc -o kspman.exe kspman.c -mwindows -lcomctl32 -lwinhttp -lole32 -loleaut32 -luuid -lshell32 -lshlwapi -ladvapi32 -s
