@@ -85,6 +85,21 @@ many mods are designed for CKAN-style dependency systems, so manual review may b
 
 ---
 
+## security & false positives
+`kspman` is designed with a minimalist, zero dependency philosophy. It interacts directly with the Windows Registry to locate your Steam installation path rather than using heavy GUI frameworks or installers.
+
+**Why?**
+heuristic based antivirus engines and EDRs may flag this tool as "suspicious" or "malicious." This is a **false positive** triggered by:
+
+* **Registry Probing:** The tool uses low level Windows APIs (`RegOpenKeyExA`, `RegQueryValueExA`) to find your game path. This behavior mimics how some malware searches for installation targets, causing heuristic engines to flag it as "aggressive."
+* **Minimalist Build:** Because the tool is small, lacks a digital signature, and avoids standard UI frameworks, it is often treated as "guilty until proven innocent" by Windows SmartScreen and security software.
+* **Heuristic Sensitivity:** Standard system calls used to maintain a low memory footprint can occasionally be misinterpreted by security engines as attempts to bypass sandbox analysis.
+
+**Transparency:**
+This tool is open source (GPL) and can be easily **compiled from source by the user.** if you are unsure i encourage you to inspect `kspman.c` for whatever version your using directly to verify that no malicious code, telemetry, or hidden payloads exist. If you are concerned about false positives, please add a folder exclusion for `kspman.exe` in your security software or compile the source locally, although it isnt needed for the program to have full functionality it would simply remove the annoyance. I have zero plans to change these methods, as that would be compromising on the minimalistic functionality
+
+---
+
 ## why not CKAN?
 nothing against CKAN.
 
