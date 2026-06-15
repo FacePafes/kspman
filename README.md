@@ -34,7 +34,7 @@ if something updates, you approved it.
 ---
 
 ## updates
-as of v0.2 kspman does not automatically check for updates.
+as of v0.3 kspman does not automatically check for updates.
 
 when you want to update a mod:
 you manually install the new version via zip or url.
